@@ -2,6 +2,11 @@ import time
 import pandas as pd
 import numpy as np
 
+#Sam Subbukumar
+#Udacity Python project
+#11/4/2019
+
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -19,7 +24,7 @@ def get_filters():
     
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     While True:   
-        city = input("Enter the city: ").lower()
+        city = input("Please enter the city: ").lower()
         if city not in ['chicago', 'new york city', 'washington']
             print('Please enter a valid city name')
         else:
@@ -29,7 +34,7 @@ def get_filters():
 
     # TO DO: get user input for month (all, january, february, ... , june)
 While True:
-    month = input("Enter the month").lower()
+    month = input("Please enter the month").lower()
     if month not in ['all', 'january', 'february', 'march', 'april', 'may', 'june']
         print('Enter a valid month')
     else:
@@ -38,7 +43,7 @@ While True:
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
 While True: 
-    weekday = input("Enter the weekday").lower()
+    weekday = input("Please enter the weekday").lower()
     if weekday not in ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
         print('Enter a valid weekday')
     else:
