@@ -5,7 +5,7 @@
 Bikeshare Data
 
 ### Description
-
+This project is used to answer any questions the user might have about the bikeshare data files from chicago, new york, and washington. This includes travel time, popular start and end stations, rider information, and more.
 
 ### Files used
 Include the files used
